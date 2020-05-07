@@ -9,13 +9,17 @@
 /* Begin PBXBuildFile section */
 		F0F03D122463F47F00A4614B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F03D112463F47F00A4614B /* AppDelegate.swift */; };
 		F0F03D142463F47F00A4614B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F03D132463F47F00A4614B /* SceneDelegate.swift */; };
-		F0F03D162463F47F00A4614B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F03D152463F47F00A4614B /* ViewController.swift */; };
 		F0F03D192463F47F00A4614B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0F03D172463F47F00A4614B /* Main.storyboard */; };
 		F0F03D1C2463F47F00A4614B /* Chef.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F0F03D1A2463F47F00A4614B /* Chef.xcdatamodeld */; };
 		F0F03D1E2463F48600A4614B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0F03D1D2463F48600A4614B /* Assets.xcassets */; };
 		F0F03D212463F48600A4614B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0F03D1F2463F48600A4614B /* LaunchScreen.storyboard */; };
 		F0F03D2C2463F48600A4614B /* ChefTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F03D2B2463F48600A4614B /* ChefTests.swift */; };
 		F0F03D372463F48600A4614B /* ChefUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F03D362463F48600A4614B /* ChefUITests.swift */; };
+		F0F03D462463F70100A4614B /* Indian.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F03D452463F70100A4614B /* Indian.swift */; };
+		F0F03D492463F85200A4614B /* Indian Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F03D482463F85200A4614B /* Indian Cell.swift */; };
+		F0F03D4B24641B5600A4614B /* Detail_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F03D4A24641B5600A4614B /* Detail_ViewController.swift */; };
+		F0F03D4E246420D100A4614B /* RoundButtton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F03D4D246420D100A4614B /* RoundButtton.swift */; };
+		F0F03D502464275200A4614B /* CollectionviewFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F03D4F2464275200A4614B /* CollectionviewFlow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,21 +40,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		F0F03D0E2463F47F00A4614B /* Chef.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chef.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0F03D0E2463F47F00A4614B /* Foodie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Foodie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0F03D112463F47F00A4614B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F0F03D132463F47F00A4614B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F0F03D152463F47F00A4614B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F0F03D182463F47F00A4614B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F0F03D1B2463F47F00A4614B /* Chef.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Chef.xcdatamodel; sourceTree = "<group>"; };
 		F0F03D1D2463F48600A4614B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F0F03D202463F48600A4614B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F0F03D222463F48600A4614B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F0F03D272463F48600A4614B /* ChefTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChefTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0F03D272463F48600A4614B /* FoodieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodieTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0F03D2B2463F48600A4614B /* ChefTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChefTests.swift; sourceTree = "<group>"; };
 		F0F03D2D2463F48600A4614B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F0F03D322463F48600A4614B /* ChefUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChefUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0F03D322463F48600A4614B /* FoodieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodieUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0F03D362463F48600A4614B /* ChefUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChefUITests.swift; sourceTree = "<group>"; };
 		F0F03D382463F48700A4614B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0F03D452463F70100A4614B /* Indian.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Indian.swift; sourceTree = "<group>"; };
+		F0F03D482463F85200A4614B /* Indian Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Indian Cell.swift"; sourceTree = "<group>"; };
+		F0F03D4A24641B5600A4614B /* Detail_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Detail_ViewController.swift; sourceTree = "<group>"; };
+		F0F03D4D246420D100A4614B /* RoundButtton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButtton.swift; sourceTree = "<group>"; };
+		F0F03D4F2464275200A4614B /* CollectionviewFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionviewFlow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,9 +99,9 @@
 		F0F03D0F2463F47F00A4614B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F0F03D0E2463F47F00A4614B /* Chef.app */,
-				F0F03D272463F48600A4614B /* ChefTests.xctest */,
-				F0F03D322463F48600A4614B /* ChefUITests.xctest */,
+				F0F03D0E2463F47F00A4614B /* Foodie.app */,
+				F0F03D272463F48600A4614B /* FoodieTests.xctest */,
+				F0F03D322463F48600A4614B /* FoodieUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,9 +109,11 @@
 		F0F03D102463F47F00A4614B /* Chef */ = {
 			isa = PBXGroup;
 			children = (
+				F0F03D4C246420BC00A4614B /* btn */,
+				F0F03D472463F84000A4614B /* Cell */,
+				F0F03D442463F54200A4614B /* Controllers */,
 				F0F03D112463F47F00A4614B /* AppDelegate.swift */,
 				F0F03D132463F47F00A4614B /* SceneDelegate.swift */,
-				F0F03D152463F47F00A4614B /* ViewController.swift */,
 				F0F03D172463F47F00A4614B /* Main.storyboard */,
 				F0F03D1D2463F48600A4614B /* Assets.xcassets */,
 				F0F03D1F2463F48600A4614B /* LaunchScreen.storyboard */,
@@ -131,12 +141,38 @@
 			path = ChefUITests;
 			sourceTree = "<group>";
 		};
+		F0F03D442463F54200A4614B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F0F03D452463F70100A4614B /* Indian.swift */,
+				F0F03D4A24641B5600A4614B /* Detail_ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		F0F03D472463F84000A4614B /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				F0F03D482463F85200A4614B /* Indian Cell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		F0F03D4C246420BC00A4614B /* btn */ = {
+			isa = PBXGroup;
+			children = (
+				F0F03D4D246420D100A4614B /* RoundButtton.swift */,
+				F0F03D4F2464275200A4614B /* CollectionviewFlow.swift */,
+			);
+			path = btn;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F0F03D0D2463F47F00A4614B /* Chef */ = {
+		F0F03D0D2463F47F00A4614B /* Foodie */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F0F03D3B2463F48700A4614B /* Build configuration list for PBXNativeTarget "Chef" */;
+			buildConfigurationList = F0F03D3B2463F48700A4614B /* Build configuration list for PBXNativeTarget "Foodie" */;
 			buildPhases = (
 				F0F03D0A2463F47F00A4614B /* Sources */,
 				F0F03D0B2463F47F00A4614B /* Frameworks */,
@@ -146,14 +182,14 @@
 			);
 			dependencies = (
 			);
-			name = Chef;
+			name = Foodie;
 			productName = Chef;
-			productReference = F0F03D0E2463F47F00A4614B /* Chef.app */;
+			productReference = F0F03D0E2463F47F00A4614B /* Foodie.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F0F03D262463F48600A4614B /* ChefTests */ = {
+		F0F03D262463F48600A4614B /* FoodieTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F0F03D3E2463F48700A4614B /* Build configuration list for PBXNativeTarget "ChefTests" */;
+			buildConfigurationList = F0F03D3E2463F48700A4614B /* Build configuration list for PBXNativeTarget "FoodieTests" */;
 			buildPhases = (
 				F0F03D232463F48600A4614B /* Sources */,
 				F0F03D242463F48600A4614B /* Frameworks */,
@@ -164,14 +200,14 @@
 			dependencies = (
 				F0F03D292463F48600A4614B /* PBXTargetDependency */,
 			);
-			name = ChefTests;
+			name = FoodieTests;
 			productName = ChefTests;
-			productReference = F0F03D272463F48600A4614B /* ChefTests.xctest */;
+			productReference = F0F03D272463F48600A4614B /* FoodieTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		F0F03D312463F48600A4614B /* ChefUITests */ = {
+		F0F03D312463F48600A4614B /* FoodieUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F0F03D412463F48700A4614B /* Build configuration list for PBXNativeTarget "ChefUITests" */;
+			buildConfigurationList = F0F03D412463F48700A4614B /* Build configuration list for PBXNativeTarget "FoodieUITests" */;
 			buildPhases = (
 				F0F03D2E2463F48600A4614B /* Sources */,
 				F0F03D2F2463F48600A4614B /* Frameworks */,
@@ -182,9 +218,9 @@
 			dependencies = (
 				F0F03D342463F48600A4614B /* PBXTargetDependency */,
 			);
-			name = ChefUITests;
+			name = FoodieUITests;
 			productName = ChefUITests;
-			productReference = F0F03D322463F48600A4614B /* ChefUITests.xctest */;
+			productReference = F0F03D322463F48600A4614B /* FoodieUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -210,7 +246,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F0F03D092463F47F00A4614B /* Build configuration list for PBXProject "Chef" */;
+			buildConfigurationList = F0F03D092463F47F00A4614B /* Build configuration list for PBXProject "Foodie" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -223,9 +259,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F0F03D0D2463F47F00A4614B /* Chef */,
-				F0F03D262463F48600A4614B /* ChefTests */,
-				F0F03D312463F48600A4614B /* ChefUITests */,
+				F0F03D0D2463F47F00A4614B /* Foodie */,
+				F0F03D262463F48600A4614B /* FoodieTests */,
+				F0F03D312463F48600A4614B /* FoodieUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -262,10 +298,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F0F03D162463F47F00A4614B /* ViewController.swift in Sources */,
 				F0F03D122463F47F00A4614B /* AppDelegate.swift in Sources */,
+				F0F03D4E246420D100A4614B /* RoundButtton.swift in Sources */,
+				F0F03D502464275200A4614B /* CollectionviewFlow.swift in Sources */,
+				F0F03D4B24641B5600A4614B /* Detail_ViewController.swift in Sources */,
 				F0F03D142463F47F00A4614B /* SceneDelegate.swift in Sources */,
+				F0F03D462463F70100A4614B /* Indian.swift in Sources */,
 				F0F03D1C2463F47F00A4614B /* Chef.xcdatamodeld in Sources */,
+				F0F03D492463F85200A4614B /* Indian Cell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,12 +330,12 @@
 /* Begin PBXTargetDependency section */
 		F0F03D292463F48600A4614B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F0F03D0D2463F47F00A4614B /* Chef */;
+			target = F0F03D0D2463F47F00A4614B /* Foodie */;
 			targetProxy = F0F03D282463F48600A4614B /* PBXContainerItemProxy */;
 		};
 		F0F03D342463F48600A4614B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F0F03D0D2463F47F00A4614B /* Chef */;
+			target = F0F03D0D2463F47F00A4614B /* Foodie */;
 			targetProxy = F0F03D332463F48600A4614B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -488,7 +528,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Chef.app/Chef";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Foodie.app/Foodie";
 			};
 			name = Debug;
 		};
@@ -510,7 +550,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Chef.app/Chef";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Foodie.app/Foodie";
 			};
 			name = Release;
 		};
@@ -557,7 +597,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F0F03D092463F47F00A4614B /* Build configuration list for PBXProject "Chef" */ = {
+		F0F03D092463F47F00A4614B /* Build configuration list for PBXProject "Foodie" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F0F03D392463F48700A4614B /* Debug */,
@@ -566,7 +606,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F0F03D3B2463F48700A4614B /* Build configuration list for PBXNativeTarget "Chef" */ = {
+		F0F03D3B2463F48700A4614B /* Build configuration list for PBXNativeTarget "Foodie" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F0F03D3C2463F48700A4614B /* Debug */,
@@ -575,7 +615,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F0F03D3E2463F48700A4614B /* Build configuration list for PBXNativeTarget "ChefTests" */ = {
+		F0F03D3E2463F48700A4614B /* Build configuration list for PBXNativeTarget "FoodieTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F0F03D3F2463F48700A4614B /* Debug */,
@@ -584,7 +624,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F0F03D412463F48700A4614B /* Build configuration list for PBXNativeTarget "ChefUITests" */ = {
+		F0F03D412463F48700A4614B /* Build configuration list for PBXNativeTarget "FoodieUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F0F03D422463F48700A4614B /* Debug */,
