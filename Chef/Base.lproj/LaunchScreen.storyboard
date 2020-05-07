@@ -22,41 +22,22 @@
                                     <constraint firstAttribute="width" secondItem="GRQ-GQ-UPa" secondAttribute="height" multiplier="207:448" id="Fw1-vr-icE"/>
                                 </constraints>
                             </imageView>
-                            <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gI8-ZY-Anl">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="EBRIOUS LOGO_PNG" translatesAutoresizingMaskIntoConstraints="NO" id="z3G-p8-PwR">
                                 <rect key="frame" x="0.0" y="768" width="414" height="128"/>
-                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="stB-CA-NdX">
-                                    <rect key="frame" x="0.0" y="0.0" width="414" height="128"/>
-                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                    <subviews>
-                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="EBRIOUS LOGO_PNG" translatesAutoresizingMaskIntoConstraints="NO" id="z3G-p8-PwR">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="128"/>
-                                            <constraints>
-                                                <constraint firstAttribute="width" secondItem="z3G-p8-PwR" secondAttribute="height" multiplier="207:64" id="agg-Q8-Gpy"/>
-                                            </constraints>
-                                        </imageView>
-                                    </subviews>
-                                    <constraints>
-                                        <constraint firstItem="z3G-p8-PwR" firstAttribute="leading" secondItem="stB-CA-NdX" secondAttribute="leading" id="4yg-ff-BBj"/>
-                                        <constraint firstItem="z3G-p8-PwR" firstAttribute="top" secondItem="stB-CA-NdX" secondAttribute="top" id="JVP-EK-s7z"/>
-                                        <constraint firstAttribute="bottom" secondItem="z3G-p8-PwR" secondAttribute="bottom" id="bpO-el-LXz"/>
-                                        <constraint firstAttribute="trailing" secondItem="z3G-p8-PwR" secondAttribute="trailing" id="zXy-Vl-4xJ"/>
-                                    </constraints>
-                                </view>
                                 <constraints>
-                                    <constraint firstAttribute="width" secondItem="gI8-ZY-Anl" secondAttribute="height" multiplier="207:64" id="fl6-rS-VRw"/>
+                                    <constraint firstAttribute="width" secondItem="z3G-p8-PwR" secondAttribute="height" multiplier="207:64" id="agg-Q8-Gpy"/>
                                 </constraints>
-                                <blurEffect style="regular"/>
-                            </visualEffectView>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
+                            <constraint firstItem="z3G-p8-PwR" firstAttribute="leading" secondItem="GRQ-GQ-UPa" secondAttribute="leading" id="FZH-o8-qD5"/>
+                            <constraint firstItem="z3G-p8-PwR" firstAttribute="trailing" secondItem="GRQ-GQ-UPa" secondAttribute="trailing" id="Uey-qC-Xmz"/>
                             <constraint firstItem="GRQ-GQ-UPa" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="WVm-qU-PId"/>
                             <constraint firstAttribute="bottom" secondItem="GRQ-GQ-UPa" secondAttribute="bottom" id="boH-Or-H71"/>
                             <constraint firstItem="GRQ-GQ-UPa" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="fVW-Be-k5e"/>
-                            <constraint firstAttribute="bottom" secondItem="gI8-ZY-Anl" secondAttribute="bottom" id="hLp-Sz-Cp6"/>
                             <constraint firstItem="GRQ-GQ-UPa" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="kgh-vK-T61"/>
-                            <constraint firstItem="gI8-ZY-Anl" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="mb5-iE-WhE"/>
-                            <constraint firstItem="gI8-ZY-Anl" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="y8V-cH-EDo"/>
+                            <constraint firstItem="z3G-p8-PwR" firstAttribute="bottom" secondItem="GRQ-GQ-UPa" secondAttribute="bottom" id="lfe-2d-Gcr"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>

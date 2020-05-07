@@ -48,7 +48,7 @@
         <!--Foodie-->
         <scene sceneID="RUK-zS-157">
             <objects>
-                <collectionViewController id="361-06-tbU" customClass="Indian" customModule="Chef" customModuleProvider="target" sceneMemberID="viewController">
+                <collectionViewController id="361-06-tbU" customClass="Indian" customModule="Foodie" customModuleProvider="target" sceneMemberID="viewController">
                     <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="rAP-rQ-qU2">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="813"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -60,7 +60,7 @@
                             <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                         </collectionViewFlowLayout>
                         <cells>
-                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Cell" id="FIF-if-xh4" customClass="Indian_Cell" customModule="Chef" customModuleProvider="target">
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Cell" id="FIF-if-xh4" customClass="Indian_Cell" customModule="Foodie" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="1" width="135" height="135"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="xZc-6y-e6c">
@@ -130,7 +130,7 @@
         <!--Detail View Controller-->
         <scene sceneID="scH-FQ-Sbg">
             <objects>
-                <viewController storyboardIdentifier="DetailScene" useStoryboardIdentifierAsRestorationIdentifier="YES" id="ChY-pQ-3cC" customClass="Detail_ViewController" customModule="Chef" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="DetailScene" useStoryboardIdentifierAsRestorationIdentifier="YES" id="ChY-pQ-3cC" customClass="Detail_ViewController" customModule="Foodie" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Dkd-Py-LgB">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -225,7 +225,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bo4-aV-YLO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2152.1739130434785" y="391.74107142857139"/>
+            <point key="canvasLocation" x="2014" y="828"/>
         </scene>
         <!--Indian-->
         <scene sceneID="pM2-N6-033">

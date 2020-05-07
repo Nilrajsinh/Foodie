@@ -22,11 +22,48 @@ class Indian: UICollectionViewController {
         
         ["Title":"Idli","Image":#imageLiteral(resourceName: "idli"),"URL":"https://www.youtube.com/watch?v=xU5T4oZOcNw","Des":"Anyone can try this coz it is made up of simple ingredients which are readily available..."],
         
-        ["Title":"Chole Kulcha","Image":#imageLiteral(resourceName: "Chole"),"URL":"https://www.youtube.com/watch?v=88YdG2PqMyM","Des":" Kulcha is a popular street food & is finger licking. Both the spiced matar & the fermented kulcha can be easily made at home. It is an excellent meal for a gathering a home. #MatarKulcha "]
+        ["Title":"Chole Kulcha","Image":#imageLiteral(resourceName: "Chole"),"URL":"https://www.youtube.com/watch?v=88YdG2PqMyM","Des":" Kulcha is a popular street food & is finger licking. Both the spiced matar & the fermented kulcha can be easily made at home. It is an excellent meal for a gathering a home. #MatarKulcha "],
         
-       // ["Title":"Idli","Image":#imageLiteral(resourceName: "idli"),"URL":"","Des":""]
+        ["Title":"Cheese Toast","Image":#imageLiteral(resourceName: "Cheese Toast"),"URL":"","Des":""],
         
-        //["Title":"Idli","Image":#imageLiteral(resourceName: "idli"),"URL":"","Des":""]
+         ["Title":"Samosa","Image":#imageLiteral(resourceName: "samosa-recipe"),"URL":"","Des":""],
+        
+         ["Title":"Butter Naan","Image":#imageLiteral(resourceName: "Butter-naan"),"URL":"","Des":""],
+         
+         ["Title":"Sandwhich","Image":#imageLiteral(resourceName: "Sandwich"),"URL":"","Des":""],
+         
+         ["Title":"PaniPuri","Image":#imageLiteral(resourceName: "PaniPuri"),"URL":"","Des":""],
+         
+         ["Title":"MisalPav","Image":#imageLiteral(resourceName: "MisalPav"),"URL":"","Des":""],
+         
+         ["Title":"Roasted Chiken","Image":#imageLiteral(resourceName: "baked chicken"),"URL":"","Des":""],
+         
+         ["Title":"Butter Chiken","Image":#imageLiteral(resourceName: "Butter Chiker"),"URL":"","Des":""],
+         
+         ["Title":"Khaman","Image":#imageLiteral(resourceName: "Khaman"),"URL":"","Des":""],
+                 
+         ["Title":"Omelate","Image":#imageLiteral(resourceName: "basic-french-omelet-930x550"),"URL":"","Des":""],
+         
+         
+         ["Title":"Meggi","Image":#imageLiteral(resourceName: "Meggi"),"URL":"","Des":""],
+         
+         ["Title":"Pav Bhaji","Image":#imageLiteral(resourceName: "Pav-Bhaji"),"URL":"","Des":""],
+         
+         ["Title":"Pasta","Image":#imageLiteral(resourceName: "pasta-article"),"URL":"","Des":""],
+         ["Title":"Shahi kaju Curry","Image":#imageLiteral(resourceName: "shahi-kaju-curry"),"URL":"","Des":""],
+         ["Title":"Chocolate Shake","Image":#imageLiteral(resourceName: "Shake"),"URL":"","Des":""],
+         ["Title":"Egg Curry","Image":#imageLiteral(resourceName: "Egg Cury"),"URL":"","Des":""],
+         ["Title":"Thepla","Image":#imageLiteral(resourceName: "thepla"),"URL":"","Des":""],
+         ["Title":"Burger","Image":#imageLiteral(resourceName: "burger"),"URL":"","Des":""],
+        ["Title":"Alu Parotha","Image":#imageLiteral(resourceName: "Alu Parotha"),"URL":"","Des":""],
+        ["Title":"Daal bati","Image":#imageLiteral(resourceName: "maxresdefault"),"URL":"","Des":""],
+        ["Title":"Daal Fry Jeera Rise","Image":#imageLiteral(resourceName: "dal-fry-and-jeera-rice"),"URL":"","Des":""],
+        ["Title":"Dahi Wada","Image":#imageLiteral(resourceName: "dahi-bhalla_650x400_61519796037"),"URL":"","Des":""],
+        ["Title":"Kachori","Image":#imageLiteral(resourceName: "kachori_650x400_51510318031"),"URL":"","Des":""],
+        ["Title":"Patra ","Image":#imageLiteral(resourceName: "maxresdefault-2"),"URL":"","Des":""],
+        ["Title":"Vadapav","Image":#imageLiteral(resourceName: "vada-pav-recipe"),"URL":"","Des":""]
+        
+                
                     ]
     
 
