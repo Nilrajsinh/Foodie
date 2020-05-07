@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F0F03D122463F47F00A4614B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F03D112463F47F00A4614B /* AppDelegate.swift */; };
+		F0F03D142463F47F00A4614B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F03D132463F47F00A4614B /* SceneDelegate.swift */; };
+		F0F03D162463F47F00A4614B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F03D152463F47F00A4614B /* ViewController.swift */; };
+		F0F03D192463F47F00A4614B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0F03D172463F47F00A4614B /* Main.storyboard */; };
+		F0F03D1C2463F47F00A4614B /* Chef.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F0F03D1A2463F47F00A4614B /* Chef.xcdatamodeld */; };
+		F0F03D1E2463F48600A4614B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0F03D1D2463F48600A4614B /* Assets.xcassets */; };
+		F0F03D212463F48600A4614B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0F03D1F2463F48600A4614B /* LaunchScreen.storyboard */; };
+		F0F03D2C2463F48600A4614B /* ChefTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F03D2B2463F48600A4614B /* ChefTests.swift */; };
+		F0F03D372463F48600A4614B /* ChefUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F03D362463F48600A4614B /* ChefUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F0F03D282463F48600A4614B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0F03D062463F47F00A4614B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F0F03D0D2463F47F00A4614B;
+			remoteInfo = Chef;
+		};
+		F0F03D332463F48600A4614B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0F03D062463F47F00A4614B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F0F03D0D2463F47F00A4614B;
+			remoteInfo = Chef;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F0F03D0E2463F47F00A4614B /* Chef.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chef.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0F03D112463F47F00A4614B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F0F03D132463F47F00A4614B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F0F03D152463F47F00A4614B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F0F03D182463F47F00A4614B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F0F03D1B2463F47F00A4614B /* Chef.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Chef.xcdatamodel; sourceTree = "<group>"; };
+		F0F03D1D2463F48600A4614B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F0F03D202463F48600A4614B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F0F03D222463F48600A4614B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0F03D272463F48600A4614B /* ChefTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChefTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0F03D2B2463F48600A4614B /* ChefTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChefTests.swift; sourceTree = "<group>"; };
+		F0F03D2D2463F48600A4614B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0F03D322463F48600A4614B /* ChefUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChefUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0F03D362463F48600A4614B /* ChefUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChefUITests.swift; sourceTree = "<group>"; };
+		F0F03D382463F48700A4614B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F0F03D0B2463F47F00A4614B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0F03D242463F48600A4614B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0F03D2F2463F48600A4614B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F0F03D052463F47F00A4614B = {
+			isa = PBXGroup;
+			children = (
+				F0F03D102463F47F00A4614B /* Chef */,
+				F0F03D2A2463F48600A4614B /* ChefTests */,
+				F0F03D352463F48600A4614B /* ChefUITests */,
+				F0F03D0F2463F47F00A4614B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F0F03D0F2463F47F00A4614B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F0F03D0E2463F47F00A4614B /* Chef.app */,
+				F0F03D272463F48600A4614B /* ChefTests.xctest */,
+				F0F03D322463F48600A4614B /* ChefUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F0F03D102463F47F00A4614B /* Chef */ = {
+			isa = PBXGroup;
+			children = (
+				F0F03D112463F47F00A4614B /* AppDelegate.swift */,
+				F0F03D132463F47F00A4614B /* SceneDelegate.swift */,
+				F0F03D152463F47F00A4614B /* ViewController.swift */,
+				F0F03D172463F47F00A4614B /* Main.storyboard */,
+				F0F03D1D2463F48600A4614B /* Assets.xcassets */,
+				F0F03D1F2463F48600A4614B /* LaunchScreen.storyboard */,
+				F0F03D222463F48600A4614B /* Info.plist */,
+				F0F03D1A2463F47F00A4614B /* Chef.xcdatamodeld */,
+			);
+			path = Chef;
+			sourceTree = "<group>";
+		};
+		F0F03D2A2463F48600A4614B /* ChefTests */ = {
+			isa = PBXGroup;
+			children = (
+				F0F03D2B2463F48600A4614B /* ChefTests.swift */,
+				F0F03D2D2463F48600A4614B /* Info.plist */,
+			);
+			path = ChefTests;
+			sourceTree = "<group>";
+		};
+		F0F03D352463F48600A4614B /* ChefUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F0F03D362463F48600A4614B /* ChefUITests.swift */,
+				F0F03D382463F48700A4614B /* Info.plist */,
+			);
+			path = ChefUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F0F03D0D2463F47F00A4614B /* Chef */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0F03D3B2463F48700A4614B /* Build configuration list for PBXNativeTarget "Chef" */;
+			buildPhases = (
+				F0F03D0A2463F47F00A4614B /* Sources */,
+				F0F03D0B2463F47F00A4614B /* Frameworks */,
+				F0F03D0C2463F47F00A4614B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Chef;
+			productName = Chef;
+			productReference = F0F03D0E2463F47F00A4614B /* Chef.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F0F03D262463F48600A4614B /* ChefTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0F03D3E2463F48700A4614B /* Build configuration list for PBXNativeTarget "ChefTests" */;
+			buildPhases = (
+				F0F03D232463F48600A4614B /* Sources */,
+				F0F03D242463F48600A4614B /* Frameworks */,
+				F0F03D252463F48600A4614B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F0F03D292463F48600A4614B /* PBXTargetDependency */,
+			);
+			name = ChefTests;
+			productName = ChefTests;
+			productReference = F0F03D272463F48600A4614B /* ChefTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F0F03D312463F48600A4614B /* ChefUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0F03D412463F48700A4614B /* Build configuration list for PBXNativeTarget "ChefUITests" */;
+			buildPhases = (
+				F0F03D2E2463F48600A4614B /* Sources */,
+				F0F03D2F2463F48600A4614B /* Frameworks */,
+				F0F03D302463F48600A4614B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F0F03D342463F48600A4614B /* PBXTargetDependency */,
+			);
+			name = ChefUITests;
+			productName = ChefUITests;
+			productReference = F0F03D322463F48600A4614B /* ChefUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F0F03D062463F47F00A4614B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Nilrajsinh Vaghela";
+				TargetAttributes = {
+					F0F03D0D2463F47F00A4614B = {
+						CreatedOnToolsVersion = 11.4;
+					};
+					F0F03D262463F48600A4614B = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = F0F03D0D2463F47F00A4614B;
+					};
+					F0F03D312463F48600A4614B = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = F0F03D0D2463F47F00A4614B;
+					};
+				};
+			};
+			buildConfigurationList = F0F03D092463F47F00A4614B /* Build configuration list for PBXProject "Chef" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F0F03D052463F47F00A4614B;
+			productRefGroup = F0F03D0F2463F47F00A4614B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F0F03D0D2463F47F00A4614B /* Chef */,
+				F0F03D262463F48600A4614B /* ChefTests */,
+				F0F03D312463F48600A4614B /* ChefUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F0F03D0C2463F47F00A4614B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0F03D212463F48600A4614B /* LaunchScreen.storyboard in Resources */,
+				F0F03D1E2463F48600A4614B /* Assets.xcassets in Resources */,
+				F0F03D192463F47F00A4614B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0F03D252463F48600A4614B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0F03D302463F48600A4614B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F0F03D0A2463F47F00A4614B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0F03D162463F47F00A4614B /* ViewController.swift in Sources */,
+				F0F03D122463F47F00A4614B /* AppDelegate.swift in Sources */,
+				F0F03D142463F47F00A4614B /* SceneDelegate.swift in Sources */,
+				F0F03D1C2463F47F00A4614B /* Chef.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0F03D232463F48600A4614B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0F03D2C2463F48600A4614B /* ChefTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0F03D2E2463F48600A4614B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0F03D372463F48600A4614B /* ChefUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F0F03D292463F48600A4614B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F0F03D0D2463F47F00A4614B /* Chef */;
+			targetProxy = F0F03D282463F48600A4614B /* PBXContainerItemProxy */;
+		};
+		F0F03D342463F48600A4614B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F0F03D0D2463F47F00A4614B /* Chef */;
+			targetProxy = F0F03D332463F48600A4614B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F0F03D172463F47F00A4614B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0F03D182463F47F00A4614B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F0F03D1F2463F48600A4614B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0F03D202463F48600A4614B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F0F03D392463F48700A4614B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F0F03D3A2463F48700A4614B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F0F03D3C2463F48700A4614B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7227VAQ96L;
+				INFOPLIST_FILE = Chef/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Ebrious.com.Chef;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F0F03D3D2463F48700A4614B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7227VAQ96L;
+				INFOPLIST_FILE = Chef/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Ebrious.com.Chef;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F0F03D3F2463F48700A4614B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7227VAQ96L;
+				INFOPLIST_FILE = ChefTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Ebrious.com.ChefTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Chef.app/Chef";
+			};
+			name = Debug;
+		};
+		F0F03D402463F48700A4614B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7227VAQ96L;
+				INFOPLIST_FILE = ChefTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Ebrious.com.ChefTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Chef.app/Chef";
+			};
+			name = Release;
+		};
+		F0F03D422463F48700A4614B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7227VAQ96L;
+				INFOPLIST_FILE = ChefUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Ebrious.com.ChefUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Chef;
+			};
+			name = Debug;
+		};
+		F0F03D432463F48700A4614B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7227VAQ96L;
+				INFOPLIST_FILE = ChefUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Ebrious.com.ChefUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Chef;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F0F03D092463F47F00A4614B /* Build configuration list for PBXProject "Chef" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0F03D392463F48700A4614B /* Debug */,
+				F0F03D3A2463F48700A4614B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0F03D3B2463F48700A4614B /* Build configuration list for PBXNativeTarget "Chef" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0F03D3C2463F48700A4614B /* Debug */,
+				F0F03D3D2463F48700A4614B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0F03D3E2463F48700A4614B /* Build configuration list for PBXNativeTarget "ChefTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0F03D3F2463F48700A4614B /* Debug */,
+				F0F03D402463F48700A4614B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0F03D412463F48700A4614B /* Build configuration list for PBXNativeTarget "ChefUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0F03D422463F48700A4614B /* Debug */,
+				F0F03D432463F48700A4614B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F0F03D1A2463F47F00A4614B /* Chef.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F0F03D1B2463F47F00A4614B /* Chef.xcdatamodel */,
+			);
+			currentVersion = F0F03D1B2463F47F00A4614B /* Chef.xcdatamodel */;
+			path = Chef.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F0F03D062463F47F00A4614B /* Project object */;
+}
