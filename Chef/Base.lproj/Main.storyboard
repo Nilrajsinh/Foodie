@@ -8,41 +8,6 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Chef-->
-        <scene sceneID="PT2-xw-wic">
-            <objects>
-                <collectionViewController id="ETm-LN-6NP" sceneMemberID="viewController">
-                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="YKH-Mi-TG3">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="813"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="vUH-nT-TOs">
-                            <size key="itemSize" width="128" height="128"/>
-                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
-                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
-                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
-                        </collectionViewFlowLayout>
-                        <cells>
-                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="j6D-i4-9IQ">
-                                <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="Ca7-eB-h0W">
-                                    <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
-                                    <autoresizingMask key="autoresizingMask"/>
-                                </collectionViewCellContentView>
-                            </collectionViewCell>
-                        </cells>
-                        <connections>
-                            <outlet property="dataSource" destination="ETm-LN-6NP" id="19e-3H-NoO"/>
-                            <outlet property="delegate" destination="ETm-LN-6NP" id="vrz-4z-6Dx"/>
-                        </connections>
-                    </collectionView>
-                    <tabBarItem key="tabBarItem" title="Chef" image="Chef" id="cgz-2D-HiP"/>
-                </collectionViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="wzD-BF-AhY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-1446" y="871"/>
-        </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="Mh4-UX-7oa">
             <objects>
@@ -56,31 +21,50 @@
                     </tabBar>
                     <connections>
                         <segue destination="YYr-yT-XzY" kind="relationship" relationship="viewControllers" id="Zru-G9-458"/>
-                        <segue destination="7j8-Vl-ETk" kind="relationship" relationship="viewControllers" id="kgO-GL-v8o"/>
-                        <segue destination="SaV-v4-8L0" kind="relationship" relationship="viewControllers" id="y8j-qq-o4d"/>
-                        <segue destination="50u-1J-Cg1" kind="relationship" relationship="viewControllers" id="7MI-Hb-Y5M"/>
-                        <segue destination="ETm-LN-6NP" kind="relationship" relationship="viewControllers" id="TQg-zy-ys8"/>
+                        <segue destination="9dL-pD-plY" kind="relationship" relationship="viewControllers" id="Unm-gN-nnN"/>
+                        <segue destination="rqH-cp-JlV" kind="relationship" relationship="viewControllers" id="wha-95-dtx"/>
+                        <segue destination="dV3-7Z-opt" kind="relationship" relationship="viewControllers" id="15k-1t-GfH"/>
+                        <segue destination="XEv-2N-spx" kind="relationship" relationship="viewControllers" id="bFg-lt-38j"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JdE-Q5-eDv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-653" y="272"/>
         </scene>
-        <!--Mexican-->
-        <scene sceneID="ARH-Lu-4O9">
+        <!--Maxican-->
+        <scene sceneID="8fQ-QW-NzA">
             <objects>
-                <viewController id="7j8-Vl-ETk" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="LeM-3l-jrK">
+                <collectionViewController id="9dL-pD-plY" customClass="Maxican" customModule="Foodie" customModuleProvider="target" sceneMemberID="viewController">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="bHh-jk-Bpj">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="813"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <viewLayoutGuide key="safeArea" id="KgV-sN-cms"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Mexican" image="MaxicoTab" id="AVe-D1-sQ3"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="7dz-g0-YRY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="q4r-cC-cNa">
+                            <size key="itemSize" width="128" height="128"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                        <cells>
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="sY6-i8-ad3">
+                                <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="c0S-P6-B3t">
+                                    <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </collectionViewCellContentView>
+                            </collectionViewCell>
+                        </cells>
+                        <connections>
+                            <outlet property="dataSource" destination="9dL-pD-plY" id="jWG-8l-2Rf"/>
+                            <outlet property="delegate" destination="9dL-pD-plY" id="xOT-xf-2V8"/>
+                        </connections>
+                    </collectionView>
+                    <tabBarItem key="tabBarItem" title="Maxican" image="MaxicoTab" id="fnJ-6d-Qvo"/>
+                </collectionViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7Uy-zt-g6G" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="114" y="636"/>
+            <point key="canvasLocation" x="1025" y="631"/>
         </scene>
         <!--Foodie-->
         <scene sceneID="RUK-zS-157">
@@ -293,37 +277,110 @@
             </objects>
             <point key="canvasLocation" x="114.49275362318842" y="-44.196428571428569"/>
         </scene>
-        <!--Chiniese-->
-        <scene sceneID="R1z-pd-PNV">
+        <!--Chinese-->
+        <scene sceneID="dbf-GE-guZ">
             <objects>
-                <viewController id="SaV-v4-8L0" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="BCI-o5-A1l">
+                <collectionViewController id="rqH-cp-JlV" customClass="Chinese" customModule="Foodie" customModuleProvider="target" sceneMemberID="viewController">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="w81-If-Hpi">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="813"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <viewLayoutGuide key="safeArea" id="R4Z-ya-wyH"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Chiniese" image="China" id="oF8-Lb-a0f"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="WIf-Ge-frD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="Puv-Mt-3bA">
+                            <size key="itemSize" width="128" height="128"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                        <cells>
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="5bG-K3-1pJ">
+                                <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="eYV-Iq-ljx">
+                                    <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </collectionViewCellContentView>
+                            </collectionViewCell>
+                        </cells>
+                        <connections>
+                            <outlet property="dataSource" destination="rqH-cp-JlV" id="Jbs-yO-W5t"/>
+                            <outlet property="delegate" destination="rqH-cp-JlV" id="EnT-u3-Ehw"/>
+                        </connections>
+                    </collectionView>
+                    <tabBarItem key="tabBarItem" title="Chinese" image="China" id="x16-7p-kqk"/>
+                </collectionViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VR9-ph-5c9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="113" y="1315"/>
+            <point key="canvasLocation" x="1025" y="1289"/>
         </scene>
-        <!--Italian-->
-        <scene sceneID="8oa-dp-EDo">
+        <!--Italy-->
+        <scene sceneID="iTK-Rd-DBp">
             <objects>
-                <viewController id="50u-1J-Cg1" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="pz4-Nz-65y">
+                <collectionViewController id="dV3-7Z-opt" customClass="Italian" customModule="Foodie" customModuleProvider="target" sceneMemberID="viewController">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="lMM-YQ-bRX">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="813"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <viewLayoutGuide key="safeArea" id="MMu-by-jOT"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Italian" image="Italy" id="Vc1-Sd-Dj8"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="yDK-TG-GNs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="mo7-o7-BfP">
+                            <size key="itemSize" width="128" height="128"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                        <cells>
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="Qmh-1R-xeK">
+                                <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="JYE-pS-p7j">
+                                    <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </collectionViewCellContentView>
+                            </collectionViewCell>
+                        </cells>
+                        <connections>
+                            <outlet property="dataSource" destination="dV3-7Z-opt" id="4Yl-IN-QO2"/>
+                            <outlet property="delegate" destination="dV3-7Z-opt" id="8dG-LD-cPZ"/>
+                        </connections>
+                    </collectionView>
+                    <tabBarItem key="tabBarItem" title="Italy" image="Italy" id="tnD-aa-1Rf"/>
+                </collectionViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cqx-kc-MJe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="114" y="1973"/>
+            <point key="canvasLocation" x="1025" y="1996"/>
+        </scene>
+        <!--Chef-->
+        <scene sceneID="uqb-SZ-OtR">
+            <objects>
+                <collectionViewController id="XEv-2N-spx" customClass="Chef" customModule="Foodie" customModuleProvider="target" sceneMemberID="viewController">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="Fgm-oW-QvU">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="813"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="vqP-Bd-ju2">
+                            <size key="itemSize" width="128" height="128"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                        <cells>
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="Rev-wJ-WYb">
+                                <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="Ibm-xS-ywU">
+                                    <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </collectionViewCellContentView>
+                            </collectionViewCell>
+                        </cells>
+                        <connections>
+                            <outlet property="dataSource" destination="XEv-2N-spx" id="fQB-rH-1Dm"/>
+                            <outlet property="delegate" destination="XEv-2N-spx" id="Hvr-3l-WB9"/>
+                        </connections>
+                    </collectionView>
+                    <tabBarItem key="tabBarItem" title="Chef" image="Chef" id="UhW-7o-o8u"/>
+                </collectionViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sTD-BK-o5u" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1442" y="828"/>
         </scene>
     </scenes>
     <resources>

@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F0B307AA24653C1B0038868C /* Maxican.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B307A924653C1B0038868C /* Maxican.swift */; };
+		F0B307AD24653C2C0038868C /* Chinese.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B307AC24653C2C0038868C /* Chinese.swift */; };
+		F0B307AF24653C3D0038868C /* Italian.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B307AE24653C3D0038868C /* Italian.swift */; };
+		F0B307B124653C480038868C /* Chef.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B307B024653C480038868C /* Chef.swift */; };
 		F0F03D122463F47F00A4614B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F03D112463F47F00A4614B /* AppDelegate.swift */; };
 		F0F03D142463F47F00A4614B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F03D132463F47F00A4614B /* SceneDelegate.swift */; };
 		F0F03D192463F47F00A4614B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0F03D172463F47F00A4614B /* Main.storyboard */; };
@@ -40,6 +44,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F0B307A924653C1B0038868C /* Maxican.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Maxican.swift; sourceTree = "<group>"; };
+		F0B307AC24653C2C0038868C /* Chinese.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chinese.swift; sourceTree = "<group>"; };
+		F0B307AE24653C3D0038868C /* Italian.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Italian.swift; sourceTree = "<group>"; };
+		F0B307B024653C480038868C /* Chef.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chef.swift; sourceTree = "<group>"; };
 		F0F03D0E2463F47F00A4614B /* Foodie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Foodie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0F03D112463F47F00A4614B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F0F03D132463F47F00A4614B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -146,6 +154,10 @@
 			children = (
 				F0F03D452463F70100A4614B /* Indian.swift */,
 				F0F03D4A24641B5600A4614B /* Detail_ViewController.swift */,
+				F0B307A924653C1B0038868C /* Maxican.swift */,
+				F0B307AC24653C2C0038868C /* Chinese.swift */,
+				F0B307AE24653C3D0038868C /* Italian.swift */,
+				F0B307B024653C480038868C /* Chef.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -298,14 +310,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0B307AF24653C3D0038868C /* Italian.swift in Sources */,
 				F0F03D122463F47F00A4614B /* AppDelegate.swift in Sources */,
 				F0F03D4E246420D100A4614B /* RoundButtton.swift in Sources */,
+				F0B307AA24653C1B0038868C /* Maxican.swift in Sources */,
 				F0F03D502464275200A4614B /* CollectionviewFlow.swift in Sources */,
 				F0F03D4B24641B5600A4614B /* Detail_ViewController.swift in Sources */,
 				F0F03D142463F47F00A4614B /* SceneDelegate.swift in Sources */,
+				F0B307B124653C480038868C /* Chef.swift in Sources */,
 				F0F03D462463F70100A4614B /* Indian.swift in Sources */,
 				F0F03D1C2463F47F00A4614B /* Chef.xcdatamodeld in Sources */,
 				F0F03D492463F85200A4614B /* Indian Cell.swift in Sources */,
+				F0B307AD24653C2C0038868C /* Chinese.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
