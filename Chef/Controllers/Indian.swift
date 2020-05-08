@@ -29,17 +29,17 @@ class Indian: UICollectionViewController {
         
         ["Title":"Chole Kulcha","Image":#imageLiteral(resourceName: "Chole"),"URL":"https://www.youtube.com/watch?v=88YdG2PqMyM","Des":" Kulcha is a popular street food & is finger licking. Both the spiced matar & the fermented kulcha can be easily made at home. It is an excellent meal for a gathering a home. #MatarKulcha "],
         
-        ["Title":"Cheese Toast","Image":#imageLiteral(resourceName: "Cheese Toast"),"URL":"","Des":""],
+        ["Title":"Cheese Toast","Image":#imageLiteral(resourceName: "Cheese Toast"),"URL":"https://www.youtube.com/watch?v=u86z8lEedr8","Des":"In this video, we will be making Chilli Cheese Toast, which is a very quick and easy snack recipe, which tastes fantastic. A perfect recipe to impress!"],
         
-         ["Title":"Samosa","Image":#imageLiteral(resourceName: "samosa-recipe"),"URL":"","Des":""],
+         ["Title":"Samosa","Image":#imageLiteral(resourceName: "samosa-recipe"),"URL":"https://www.youtube.com/watch?v=AAm95jaoAJc","Des":"Here I am revealing all the secrets of making best halwai style  samosa ....Easy and quick recipe for all the viewers  ...Please Try and share the feed back with me ..........."],
         
-         ["Title":"Butter Naan","Image":#imageLiteral(resourceName: "Butter-naan"),"URL":"","Des":""],
+         ["Title":"Butter Naan","Image":#imageLiteral(resourceName: "Butter-naan"),"URL":"https://www.youtube.com/watch?v=kA_3gY9rX4Y","Des":"Welcome to Sonia Barton Channel, In this Channel I share various kind of dishes/recipes in my style which is very simple to make with ingredients available at home and can be easily understood so that anyone and everyone can make it. I make Indian, Chinese, Delhi style, Mughlai, Sweets, bakery items and various other cuisines. "],
          
-         ["Title":"Sandwhich","Image":#imageLiteral(resourceName: "Sandwich"),"URL":"","Des":""],
+         ["Title":"Sandwhich","Image":#imageLiteral(resourceName: "Sandwich"),"URL":"https://www.youtube.com/watch?v=JrDdDRWPDdg","Des":"10 Min Sandwich - Crunchy Onion Tomato Toast Recipe is what we're doing today.. Do try and share your feedback :)"],
          
-         ["Title":"PaniPuri","Image":#imageLiteral(resourceName: "PaniPuri"),"URL":"","Des":""],
+         ["Title":"PaniPuri","Image":#imageLiteral(resourceName: "PaniPuri"),"URL":"https://www.youtube.com/watch?v=OtQftx4TUh0","Des":"Ye kolkata style Pani Puri ko Golgappa, Pani Patasha, Puchka, Gupchup bhi bola jata h."],
          
-         ["Title":"MisalPav","Image":#imageLiteral(resourceName: "MisalPav"),"URL":"","Des":""],
+         ["Title":"MisalPav","Image":#imageLiteral(resourceName: "MisalPav"),"URL":"https://www.youtube.com/watch?v=U24aNCL0YdQ","Des":"Misal pav is popular Maharashtrian breakfast. There are many variations in missal pav. You can have this as breakfast, lunch or brunch. This is spicy curry with sprouts or moth beans (Mataki). It is served with ladi pav. Enjoy missal pav."],
          
          ["Title":"Roasted Chiken","Image":#imageLiteral(resourceName: "baked chicken"),"URL":"","Des":""],
          

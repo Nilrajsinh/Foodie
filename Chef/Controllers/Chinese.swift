@@ -11,9 +11,29 @@ import UIKit
 
 
 class Chinese: UICollectionViewController {
+    
+    override func viewWillAppear(_ animated: Bool) {
+              tabBarController?.tabBar.isHidden = false
+          }
+    
+    var Chinese = [
+     ["Title":"Jalebi ","Image":#imageLiteral(resourceName: "Jalebi-Recipe-Rasoi-Menu"),"URL":"","Des":""],
+                  
+                   ["Title":"Medu wada ","Image":#imageLiteral(resourceName: "South_Indian_Medu_Vada_Sambar_with_Medu_Vada_Maker-8_400"),"URL":"","Des":""],
+                   
+                    ["Title":"Raas malai ","Image":#imageLiteral(resourceName: "Kesar-Rasmalai"),"URL":"","Des":""],
+                    
+                     ["Title":"Uthapam ","Image":#imageLiteral(resourceName: "big_onion_tomato_uttapam,_tomato_onion_uttapa-11571"),"URL":"","Des":""] ]
+    
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        
+        var CustomImageFlow = FlowLayoutColllectionView()
+                     collectionView.collectionViewLayout = CustomImageFlow
+        
 
        //MARK:- Swipe Gesture Start
                
@@ -48,22 +68,38 @@ class Chinese: UICollectionViewController {
 
     override func numberOfSections(in collectionView: UICollectionView) -> Int {
         // #warning Incomplete implementation, return the number of sections
-        return 0
+        return 1
     }
 
 
     override func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of items
-        return 0
+        return Chinese.count
     }
 
     override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "Cell", for: indexPath)
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "Cell", for: indexPath) as! Indian_Cell
+               cell.Img.image = Chinese[indexPath.row]["Image"] as! UIImage
+                cell.Lbl.text = Chinese[indexPath.row]["Title"] as! String
     
         // Configure the cell
     
         return cell
     }
+    
+    override func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+         var url = Chinese[indexPath.row]["URL"]
+         
+         let Detialscene = self.storyboard?.instantiateViewController(identifier: "DetailScene") as! Detail_ViewController
+                self.navigationController?.pushViewController(Detialscene, animated: true)
+         
+         Detialscene.dimg = Chinese[indexPath.row]["Image"] as! UIImage
+         Detialscene.Desc = Chinese[indexPath.row]["Des"] as! String
+         Detialscene.YouUrl = url as! String
+        
+
+         
+     }
 
     // MARK: UICollectionViewDelegate
 

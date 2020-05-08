@@ -11,9 +11,27 @@ import UIKit
 
 
 class Italian: UICollectionViewController {
+    
+    override func viewWillAppear(_ animated: Bool) {
+              tabBarController?.tabBar.isHidden = false
+          }
+    
+    var Italian = [
+     ["Title":"Jalebi ","Image":#imageLiteral(resourceName: "Jalebi-Recipe-Rasoi-Menu"),"URL":"","Des":""],
+                  
+                   ["Title":"Medu wada ","Image":#imageLiteral(resourceName: "South_Indian_Medu_Vada_Sambar_with_Medu_Vada_Maker-8_400"),"URL":"","Des":""],
+                   
+                    ["Title":"Raas malai ","Image":#imageLiteral(resourceName: "Kesar-Rasmalai"),"URL":"","Des":""],
+                    
+                     ["Title":"Uthapam ","Image":#imageLiteral(resourceName: "big_onion_tomato_uttapam,_tomato_onion_uttapa-11571"),"URL":"","Des":""] ]
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        var CustomImageFlow = FlowLayoutColllectionView()
+                     collectionView.collectionViewLayout = CustomImageFlow
+        
+        
         
         //MARK:- Swipe Gesture Start
                
@@ -47,22 +65,39 @@ class Italian: UICollectionViewController {
 
     override func numberOfSections(in collectionView: UICollectionView) -> Int {
         // #warning Incomplete implementation, return the number of sections
-        return 0
+        return 1
     }
 
 
     override func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of items
-        return 0
+        return Italian.count
     }
 
     override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "Cell", for: indexPath)
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "Cell", for: indexPath) as! Indian_Cell
+               cell.Img.image = Italian[indexPath.row]["Image"] as! UIImage
+                cell.Lbl.text = Italian[indexPath.row]["Title"] as! String
     
         // Configure the cell
     
         return cell
     }
+    
+    override func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+         var url = Italian[indexPath.row]["URL"]
+         
+         let Detialscene = self.storyboard?.instantiateViewController(identifier: "DetailScene") as! Detail_ViewController
+                self.navigationController?.pushViewController(Detialscene, animated: true)
+         
+         Detialscene.dimg = Italian[indexPath.row]["Image"] as! UIImage
+         Detialscene.Desc = Italian[indexPath.row]["Des"] as! String
+         Detialscene.YouUrl = url as! String
+        
+
+         
+     }
+    
 
     // MARK: UICollectionViewDelegate
 

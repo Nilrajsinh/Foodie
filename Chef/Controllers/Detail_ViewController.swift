@@ -44,7 +44,9 @@ class Detail_ViewController: UIViewController {
     }
     
     override func viewWillAppear(_ animated: Bool) {
+        self.tabBarController?.tabBar.isTranslucent = true
         tabBarController?.tabBar.isHidden = true
+        
     }
     
     @IBAction func Share(_ sender: Any) {
