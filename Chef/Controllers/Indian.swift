@@ -12,6 +12,11 @@ import UIKit
 
 class Indian: UICollectionViewController {
     
+    override func viewWillAppear(_ animated: Bool) {
+           tabBarController?.tabBar.isHidden = false
+       }
+    
+    
     var indian = [
         ["Title":"Pizza","Image":#imageLiteral(resourceName: "Pizza"),"URL":"https://www.youtube.com/watch?v=Lyj8wH2iTYg","Des":"Ingredients FOR THE DOUGH Rapid rise yeast 2 Teaspoon  Sugar 1 Tablespoon Warm water 1 1⁄4 Cup (20 tbs) Oil 4 Tablespoon (3 - 4 tablespoons) Salt To Taste Garlic powder 1⁄2 Teaspoon (Optional) Dry italian herbs 1 Tablespoon (Optional) Plain flour 3 Cup (48 tbs) (2 1/2 - 3 cups)  Tomatoes 5 (4 -5 tomatoes) Red bell pepper 1⁄2  FOR THE SAUCE  Carrot 1 , sliced  Onion 1⁄2 , sliced Garlic 3 Clove (15 gm) (2 - 3 cloves) Chopped basil leaves 1⁄4 Cup (4 tbs) Salt To Taste Paprika/Chilli powder To Taste Sugar To Taste (Optional)  Directions GETTING READY "],
         
@@ -61,7 +66,27 @@ class Indian: UICollectionViewController {
         ["Title":"Dahi Wada","Image":#imageLiteral(resourceName: "dahi-bhalla_650x400_61519796037"),"URL":"","Des":""],
         ["Title":"Kachori","Image":#imageLiteral(resourceName: "kachori_650x400_51510318031"),"URL":"","Des":""],
         ["Title":"Patra ","Image":#imageLiteral(resourceName: "maxresdefault-2"),"URL":"","Des":""],
-        ["Title":"Vadapav","Image":#imageLiteral(resourceName: "vada-pav-recipe"),"URL":"","Des":""]
+        ["Title":"Vadapav","Image":#imageLiteral(resourceName: "vada-pav-recipe"),"URL":"","Des":""],
+        
+         ["Title":"Pulav ","Image":#imageLiteral(resourceName: "vegetable-pulav-recipe"),"URL":"","Des":""],
+         
+          ["Title":"Biryani ","Image":#imageLiteral(resourceName: "54308405.cms"),"URL":"","Des":""],
+          
+           ["Title":"Carrot halwa ","Image":#imageLiteral(resourceName: "carrot-halwa-recipe-1-500x500"),"URL":"","Des":""],
+           
+            ["Title":"Green Chatni ","Image":#imageLiteral(resourceName: "Green-Chutney--500x500"),"URL":"","Des":""],
+            
+             ["Title":"Gulab Jamun ","Image":#imageLiteral(resourceName: "Gulab-Jamun-Indian-Sweet"),"URL":"","Des":""],
+             
+              ["Title":"Khir ","Image":#imageLiteral(resourceName: "sago-kheer-sabudana-khir-sweet-260nw-1090520213"),"URL":"","Des":""],
+              
+               ["Title":"Jalebi ","Image":#imageLiteral(resourceName: "Jalebi-Recipe-Rasoi-Menu"),"URL":"","Des":""],
+               
+                ["Title":"Medu wada ","Image":#imageLiteral(resourceName: "South_Indian_Medu_Vada_Sambar_with_Medu_Vada_Maker-8_400"),"URL":"","Des":""],
+                
+                 ["Title":"Raas malai ","Image":#imageLiteral(resourceName: "Kesar-Rasmalai"),"URL":"","Des":""],
+                 
+                  ["Title":"Uthapam ","Image":#imageLiteral(resourceName: "big_onion_tomato_uttapam,_tomato_onion_uttapa-11571"),"URL":"","Des":""]
         
                 
                     ]

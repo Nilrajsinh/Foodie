@@ -43,6 +43,10 @@ class Detail_ViewController: UIViewController {
         
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        tabBarController?.tabBar.isHidden = true
+    }
+    
     @IBAction func Share(_ sender: Any) {
         
         let activityVC = UIActivityViewController(activityItems: [YouUrl], applicationActivities: nil)

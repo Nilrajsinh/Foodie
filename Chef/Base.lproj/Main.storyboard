@@ -8,6 +8,41 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
+        <!--Chef-->
+        <scene sceneID="PT2-xw-wic">
+            <objects>
+                <collectionViewController id="ETm-LN-6NP" sceneMemberID="viewController">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="YKH-Mi-TG3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="813"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="vUH-nT-TOs">
+                            <size key="itemSize" width="128" height="128"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                        <cells>
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="j6D-i4-9IQ">
+                                <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="Ca7-eB-h0W">
+                                    <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </collectionViewCellContentView>
+                            </collectionViewCell>
+                        </cells>
+                        <connections>
+                            <outlet property="dataSource" destination="ETm-LN-6NP" id="19e-3H-NoO"/>
+                            <outlet property="delegate" destination="ETm-LN-6NP" id="vrz-4z-6Dx"/>
+                        </connections>
+                    </collectionView>
+                    <tabBarItem key="tabBarItem" title="Chef" image="Chef" id="cgz-2D-HiP"/>
+                </collectionViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wzD-BF-AhY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1446" y="871"/>
+        </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="Mh4-UX-7oa">
             <objects>
@@ -17,12 +52,14 @@
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <color key="tintColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="selectedImageTintColor" red="0.81960784310000001" green="0.231827324" blue="0.41529749659999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </tabBar>
                     <connections>
                         <segue destination="YYr-yT-XzY" kind="relationship" relationship="viewControllers" id="Zru-G9-458"/>
                         <segue destination="7j8-Vl-ETk" kind="relationship" relationship="viewControllers" id="kgO-GL-v8o"/>
                         <segue destination="SaV-v4-8L0" kind="relationship" relationship="viewControllers" id="y8j-qq-o4d"/>
                         <segue destination="50u-1J-Cg1" kind="relationship" relationship="viewControllers" id="7MI-Hb-Y5M"/>
+                        <segue destination="ETm-LN-6NP" kind="relationship" relationship="viewControllers" id="TQg-zy-ys8"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JdE-Q5-eDv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -39,7 +76,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="KgV-sN-cms"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Mexican" image="icons8-mexico-48" id="AVe-D1-sQ3"/>
+                    <tabBarItem key="tabBarItem" title="Mexican" image="MaxicoTab" id="AVe-D1-sQ3"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7dz-g0-YRY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -173,6 +210,7 @@
                                             <constraints>
                                                 <constraint firstAttribute="width" secondItem="DfC-ht-Mmc" secondAttribute="height" multiplier="40:41" id="iBm-Ge-4Hu"/>
                                             </constraints>
+                                            <color key="tintColor" red="0.81960784310000001" green="0.231827324" blue="0.41529749659999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <state key="normal" image="arrowshape.turn.up.right.fill" catalog="system"/>
                                             <connections>
                                                 <action selector="Share:" destination="ChY-pQ-3cC" eventType="touchUpInside" id="DNJ-sl-Akt"/>
@@ -180,6 +218,7 @@
                                         </button>
                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Xh-sl-VsA">
                                             <rect key="frame" x="184" y="8" width="52" height="41"/>
+                                            <color key="tintColor" red="0.81960784310000001" green="0.231827324" blue="0.41529749659999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <state key="normal" image="play.circle.fill" catalog="system"/>
                                             <connections>
                                                 <action selector="PlayBtn:" destination="ChY-pQ-3cC" eventType="touchUpInside" id="FLU-l1-kqs"/>
@@ -231,13 +270,14 @@
         <scene sceneID="pM2-N6-033">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="YYr-yT-XzY" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Indian" image="icons8-india-48" id="QCb-Xm-Dpb">
+                    <tabBarItem key="tabBarItem" title="Indian" image="IndianTav" id="QCb-Xm-Dpb">
                         <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="0.0"/>
                     </tabBarItem>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Tac-Mp-2Wb">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" red="0.81960784310000001" green="0.231827324" blue="0.41529749659999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <textAttributes key="titleTextAttributes">
                             <fontDescription key="fontDescription" name="SnellRoundhand" family="Snell Roundhand" pointSize="40"/>
                             <color key="textColor" red="0.81960784310000001" green="0.23182732396536171" blue="0.41529749662371451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -263,7 +303,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="R4Z-ya-wyH"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Chiniese" image="icons8-soup-plate-48" id="oF8-Lb-a0f"/>
+                    <tabBarItem key="tabBarItem" title="Chiniese" image="China" id="oF8-Lb-a0f"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WIf-Ge-frD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -279,7 +319,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="MMu-by-jOT"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Italian" image="icons8-italy-50" id="Vc1-Sd-Dj8"/>
+                    <tabBarItem key="tabBarItem" title="Italian" image="Italy" id="Vc1-Sd-Dj8"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yDK-TG-GNs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -287,12 +327,13 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Chef" width="40" height="40"/>
+        <image name="China" width="48" height="48"/>
         <image name="IMG_31E8495E106C-1" width="1122" height="2208"/>
+        <image name="IndianTav" width="48" height="48"/>
+        <image name="Italy" width="40" height="40"/>
+        <image name="MaxicoTab" width="40" height="40"/>
         <image name="arrowshape.turn.up.right.fill" catalog="system" width="128" height="106"/>
-        <image name="icons8-india-48" width="48" height="48"/>
-        <image name="icons8-italy-50" width="50" height="50"/>
-        <image name="icons8-mexico-48" width="48" height="48"/>
-        <image name="icons8-soup-plate-48" width="48" height="48"/>
         <image name="play.circle.fill" catalog="system" width="128" height="121"/>
     </resources>
 </document>
