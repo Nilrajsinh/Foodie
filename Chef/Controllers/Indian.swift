@@ -41,52 +41,52 @@ class Indian: UICollectionViewController {
          
          ["Title":"MisalPav","Image":#imageLiteral(resourceName: "MisalPav"),"URL":"https://www.youtube.com/watch?v=U24aNCL0YdQ","Des":"Misal pav is popular Maharashtrian breakfast. There are many variations in missal pav. You can have this as breakfast, lunch or brunch. This is spicy curry with sprouts or moth beans (Mataki). It is served with ladi pav. Enjoy missal pav."],
          
-         ["Title":"Roasted Chiken","Image":#imageLiteral(resourceName: "baked chicken"),"URL":"","Des":""],
+         ["Title":"Roasted Chiken","Image":#imageLiteral(resourceName: "baked chicken"),"URL":"https://www.youtube.com/watch?v=T_GNDlsr5Jw","Des":"Chef Seema shows you the easy way to make the most yummiest and tempting chicken starter at home, with just few cooker whistles enjoy the delicious roasted chicken. So watch and learn how to make Roast Chicken at home only on Swaad Anusaar."],
          
-         ["Title":"Butter Chiken","Image":#imageLiteral(resourceName: "Butter Chiker"),"URL":"","Des":""],
+         ["Title":"Butter Chiken","Image":#imageLiteral(resourceName: "Butter Chiker"),"URL":"https://www.youtube.com/watch?v=bX7AyuNMrVY","Des":"The easy Butter Chicken recipe is here, no tandoor no oven required. For a good butter chicken the curry and chicken tikka are cooked separately and then finished together in the end."],
          
-         ["Title":"Khaman","Image":#imageLiteral(resourceName: "Khaman"),"URL":"","Des":""],
+         ["Title":"Khaman","Image":#imageLiteral(resourceName: "Khaman"),"URL":"https://www.youtube.com/watch?v=AUl2Sx52x0Y","Des":"Nylon khaman recipe | Nylon khaman recipe with tips to make it perfect | #khaman_recipe | ખમણ | khaman recipe | dhokla recipe | Khaman dhokla recipe | khamandhokla | khaman | instant dhokla |ખમણ બનાવવા ની રીત | instant khaman | khaman banavani rit In this video, I have shared nylon Khaman recipe / khaman recipe  (Gujarati : ખમણ) (some people identify this dish as a Dhokla as well). I have shared detailed steps with tips to make it perfect."],
                  
-         ["Title":"Omelate","Image":#imageLiteral(resourceName: "basic-french-omelet-930x550"),"URL":"","Des":""],
+         ["Title":"Omelate","Image":#imageLiteral(resourceName: "basic-french-omelet-930x550"),"URL":"https://www.youtube.com/watch?v=FPkWMaqiCgc","Des":""],
          
          
-         ["Title":"Meggi","Image":#imageLiteral(resourceName: "Meggi"),"URL":"","Des":""],
+         ["Title":"Meggi","Image":#imageLiteral(resourceName: "Meggi"),"URL":"https://www.youtube.com/watch?v=YvxoONjaeM8","Des":"Chopped Onion and Capsicum is put in the boiling water in a Pan then Two Packets of MAGGI is added in the pan then Maggi Masala,Schezwan Chutney, Salt, Red Chilli Flakes, Chilli Sauce, Soya Sauce, Saffron Eating color is mixed and pan is closed for a while. "],
          
-         ["Title":"Pav Bhaji","Image":#imageLiteral(resourceName: "Pav-Bhaji"),"URL":"","Des":""],
+         ["Title":"Pav Bhaji","Image":#imageLiteral(resourceName: "Pav-Bhaji"),"URL":"https://www.youtube.com/watch?v=n24G3JHOiNk","Des":"pav bhaji recipe | easy mumbai style pav bhaji recipe with detailed photo and video recipe. a world-famous fast food dish or perhaps the king of the street food from the western state of maharashtra. the recipe is an amalgamation of vegetables spiced with a unique blend of spices known as pav bhaji masala and served with soft bread roll aka pav."],
          
-         ["Title":"Pasta","Image":#imageLiteral(resourceName: "pasta-article"),"URL":"","Des":""],
-         ["Title":"Shahi kaju Curry","Image":#imageLiteral(resourceName: "shahi-kaju-curry"),"URL":"","Des":""],
-         ["Title":"Chocolate Shake","Image":#imageLiteral(resourceName: "Shake"),"URL":"","Des":""],
-         ["Title":"Egg Curry","Image":#imageLiteral(resourceName: "Egg Cury"),"URL":"","Des":""],
-         ["Title":"Thepla","Image":#imageLiteral(resourceName: "thepla"),"URL":"","Des":""],
-         ["Title":"Burger","Image":#imageLiteral(resourceName: "burger"),"URL":"","Des":""],
-        ["Title":"Alu Parotha","Image":#imageLiteral(resourceName: "Alu Parotha"),"URL":"","Des":""],
-        ["Title":"Daal bati","Image":#imageLiteral(resourceName: "maxresdefault"),"URL":"","Des":""],
-        ["Title":"Daal Fry Jeera Rise","Image":#imageLiteral(resourceName: "dal-fry-and-jeera-rice"),"URL":"","Des":""],
-        ["Title":"Dahi Wada","Image":#imageLiteral(resourceName: "dahi-bhalla_650x400_61519796037"),"URL":"","Des":""],
-        ["Title":"Kachori","Image":#imageLiteral(resourceName: "kachori_650x400_51510318031"),"URL":"","Des":""],
-        ["Title":"Patra ","Image":#imageLiteral(resourceName: "maxresdefault-2"),"URL":"","Des":""],
-        ["Title":"Vadapav","Image":#imageLiteral(resourceName: "vada-pav-recipe"),"URL":"","Des":""],
+         ["Title":"Pasta","Image":#imageLiteral(resourceName: "pasta-article"),"URL":"https://www.youtube.com/watch?v=TgSkS53CrjQ","Des":"White souce Pasta"],
+         ["Title":"Shahi kaju Curry","Image":#imageLiteral(resourceName: "shahi-kaju-curry"),"URL":"https://www.youtube.com/watch?v=T9hQV22Uezw","Des":"The most irresistible Paneer dish is Shahi Paneer. Though many versions of the same exist, mine is "],
+         ["Title":"Chocolate Shake","Image":#imageLiteral(resourceName: "Shake"),"URL":"https://www.youtube.com/watch?v=EA4yMzlHo9U","Des":" TODAY'S RECIPE IS 3 EASY MILKSHAKE RECIPE | 3 CHOCOLATY MILKSHAKE | CHOCOLATE MILKSHAKE | OREO MILKSHAKE | KITKAT MILKSHAKE "],
+         ["Title":"Egg Curry","Image":#imageLiteral(resourceName: "Egg Cury"),"URL":"https://www.youtube.com/watch?v=XqnGikGe3A8","Des":"Dhaba style Anda Masala recipe is a tasty egg curry made using boiled eggs fried and then cooked in a gravy rich in spices"],
+         ["Title":"Thepla","Image":#imageLiteral(resourceName: "thepla"),"URL":"https://www.youtube.com/watch?v=58_t_zaygFg","Des":"Methi Thepla, a must try lightly spiced paratha like traditional Gujarati flatbread Recipe is prepared from wheat flour, fenugreek leaves and other spices. Theplas are an inherent part of Gujarati meals and are cooked for regular meals and for travelling. It tastes best when eaten with Garlic Chutney, Curd and chunda."],
+         ["Title":"Burger","Image":#imageLiteral(resourceName: "burger"),"URL":"https://www.youtube.com/watch?v=WOE5C-8JjK0","Des":"Veg Burger | How to make Veg Burger at Home | 3S Kitchen"],
+        ["Title":"Alu Parotha","Image":#imageLiteral(resourceName: "Alu Parotha"),"URL":"https://www.youtube.com/watch?v=r2N8ObqAgy0","Des":"Indian Aloo Paratha – whole wheat flatbread stuffed with a spicy potato filling. This paratha is best "],
+        ["Title":"Daal bati","Image":#imageLiteral(resourceName: "maxresdefault"),"URL":"https://www.youtube.com/watch?v=RHtTyu7rpr8","Des":"How to make Dal Bati, Rajasthani Indian Famous Food"],
+        ["Title":"Daal Fry Jeera Rise","Image":#imageLiteral(resourceName: "dal-fry-and-jeera-rice"),"URL":"https://www.youtube.com/watch?v=Z130iUTIIAY","Des":"अगर आपने कभी खाना नहीं बनाया है या कुकिंग में नए है तो ये वीडियो आपके लिए एकदम परफेक्ट है, मैंने होटल जैसा दाल फ्राई और जीरा राइस बनाया है जिसे बनाना बहुत आसान है ..अगर रेसिपी पसंद आए तो लाइक सुर शेयर जरूर करे मुझे ख़ुशी होगी :)v"],
+        ["Title":"Dahi Wada","Image":#imageLiteral(resourceName: "dahi-bhalla_650x400_61519796037"),"URL":"https://www.youtube.com/watch?v=0WnHrQWr4xk","Des":"Dosto, aaj ke video me hum log banate h dahi bhalle ki recipe, lekin sabse soft aur tasty wala. ye recipe me hum log ek secret masala bhi banaenge. "],
+        ["Title":"Kachori","Image":#imageLiteral(resourceName: "kachori_650x400_51510318031"),"URL":"https://www.youtube.com/watch?v=eJP2jShZWGA","Des":"moong daal khasta kachori recipe is the speciality of rajasthan  .....Here I have shared the authentic recipe but it is really very easy with this method you can make these kachories eaily at home so please do try this recipe and share the feed back  :))"],
+        ["Title":"Patra ","Image":#imageLiteral(resourceName: "maxresdefault-2"),"URL":"https://www.youtube.com/watch?v=y6On70lP7Dg","Des":"If you are looking for a new Gujarati recipe, then Patra can be the right choice for you. This scrumptious recipe is made with the goodness of gram flour, ginger-chili paste and a melange of spices. With colocasia as its main ingredient, this lip-smacking recipe gives a whole new experience to your taste buds. One can serve this mouth-watering recipe on occasions like pot, kitty party and anniversaries. "],
+        ["Title":"Vadapav","Image":#imageLiteral(resourceName: "vada-pav-recipe"),"URL":"https://www.youtube.com/watch?v=UDLg5FYo9F4","Des":"Today we'll learn how to make Mumbai style Vada Pav with chutney. It is famous roadside Mumbai snacks. It is  made by stuffing deep fried potato fritters in lightly toasted buns and served with spicy garlic chutneys."],
         
-         ["Title":"Pulav ","Image":#imageLiteral(resourceName: "vegetable-pulav-recipe"),"URL":"","Des":""],
+         ["Title":"Pulav ","Image":#imageLiteral(resourceName: "vegetable-pulav-recipe"),"URL":"https://www.youtube.com/watch?v=PYzz-JEyuJw","Des":""],
          
-          ["Title":"Biryani ","Image":#imageLiteral(resourceName: "54308405.cms"),"URL":"","Des":""],
+          ["Title":"Biryani ","Image":#imageLiteral(resourceName: "54308405.cms"),"URL":"https://www.youtube.com/watch?v=8Fw_zWPbGog","Des":"Hyderabadi Chicken Dum Biryani is a World famous Dish, it is made using chicken which is marinated then cooked and then is added to cooked rice and again cooked under dum"],
           
-           ["Title":"Carrot halwa ","Image":#imageLiteral(resourceName: "carrot-halwa-recipe-1-500x500"),"URL":"","Des":""],
+           ["Title":"Carrot halwa ","Image":#imageLiteral(resourceName: "carrot-halwa-recipe-1-500x500"),"URL":"https://www.youtube.com/watch?v=0DDJ4mpSSfs","Des":"Halwa"],
            
-            ["Title":"Green Chatni ","Image":#imageLiteral(resourceName: "Green-Chutney--500x500"),"URL":"","Des":""],
+            ["Title":"Green Chatni ","Image":#imageLiteral(resourceName: "Green-Chutney--500x500"),"URL":"https://www.youtube.com/watch?v=3MS8NMiiHqA","Des":"Whether you're looking to make green chutney to dip on dishes like samosas, to eat along with roti & rice, or to spread on dishes like vada pav, dosas.. I've got you covered! Here's 3 ways to prepare green chutney out of the dozen of versions we all make..  Coriander Yogurt Dip to dip on spicy snacks, daily green chutney to eat along with our daily indian food."],
             
-             ["Title":"Gulab Jamun ","Image":#imageLiteral(resourceName: "Gulab-Jamun-Indian-Sweet"),"URL":"","Des":""],
+             ["Title":"Gulab Jamun ","Image":#imageLiteral(resourceName: "Gulab-Jamun-Indian-Sweet"),"URL":"https://www.youtube.com/watch?v=Do9mk9mya_A","Des":""],
              
-              ["Title":"Khir ","Image":#imageLiteral(resourceName: "sago-kheer-sabudana-khir-sweet-260nw-1090520213"),"URL":"","Des":""],
+              ["Title":"Khir ","Image":#imageLiteral(resourceName: "sago-kheer-sabudana-khir-sweet-260nw-1090520213"),"URL":"https://www.youtube.com/watch?v=HbSeki3SEdg","Des":""],
               
-               ["Title":"Jalebi ","Image":#imageLiteral(resourceName: "Jalebi-Recipe-Rasoi-Menu"),"URL":"","Des":""],
+               ["Title":"Jalebi ","Image":#imageLiteral(resourceName: "Jalebi-Recipe-Rasoi-Menu"),"URL":"https://www.youtube.com/watch?v=0w471_wMPP0","Des":""],
                
-                ["Title":"Medu wada ","Image":#imageLiteral(resourceName: "South_Indian_Medu_Vada_Sambar_with_Medu_Vada_Maker-8_400"),"URL":"","Des":""],
+                ["Title":"Medu wada ","Image":#imageLiteral(resourceName: "South_Indian_Medu_Vada_Sambar_with_Medu_Vada_Maker-8_400"),"URL":"https://www.youtube.com/watch?v=tvd5nuee-Ak","Des":""],
                 
-                 ["Title":"Raas malai ","Image":#imageLiteral(resourceName: "Kesar-Rasmalai"),"URL":"","Des":""],
+                 ["Title":"Raas malai ","Image":#imageLiteral(resourceName: "Kesar-Rasmalai"),"URL":"https://www.youtube.com/watch?v=LECpZPkP9Wk","Des":""],
                  
-                  ["Title":"Uthapam ","Image":#imageLiteral(resourceName: "big_onion_tomato_uttapam,_tomato_onion_uttapa-11571"),"URL":"","Des":""]
+                  ["Title":"Uthapam ","Image":#imageLiteral(resourceName: "big_onion_tomato_uttapam,_tomato_onion_uttapa-11571"),"URL":"https://www.youtube.com/watch?v=7r2c_m2LePk","Des":""]
         
                 
                     ]
