@@ -7,10 +7,10 @@
 //
 
 import UIKit
+import GoogleMobileAds
 
 
-
-class Indian: UICollectionViewController {
+class Indian: UICollectionViewController, GADBannerViewDelegate, GADInterstitialDelegate {
     
     override func viewWillAppear(_ animated: Bool) {
            tabBarController?.tabBar.isHidden = false
@@ -91,9 +91,59 @@ class Indian: UICollectionViewController {
                 
                     ]
     
+    
+     var bannerView: GADBannerView!
+    func addBannerViewToView(_ bannerView: GADBannerView) {
+     bannerView.translatesAutoresizingMaskIntoConstraints = false
+     view.addSubview(bannerView)
+     view.addConstraints(
+       [NSLayoutConstraint(item: bannerView,
+                           attribute: .bottom,
+                           relatedBy: .equal,
+                           toItem: bottomLayoutGuide,
+                           attribute: .top,
+                           multiplier: 1,
+                           constant: 0),
+        NSLayoutConstraint(item: bannerView,
+                           attribute: .centerX,
+                           relatedBy: .equal,
+                           toItem: view,
+                           attribute: .centerX,
+                           multiplier: 1,
+                           constant: 0)
+       ])
+    }
+    
+    var interstitial: GADInterstitial!
+       func createAndLoadInterstitial() -> GADInterstitial {
+         var interstitial = GADInterstitial(adUnitID: "ca-app-pub-3032756932177746/8414740827")
+         interstitial.delegate = self
+         interstitial.load(GADRequest())
+         return interstitial
+       }
+
+       func interstitialDidDismissScreen(_ ad: GADInterstitial) {
+         interstitial = createAndLoadInterstitial()
+       }
+    
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        bannerView = GADBannerView(adSize: kGADAdSizeBanner)
+        addBannerViewToView(bannerView)
+        bannerView.adUnitID = "ca-app-pub-3032756932177746/9460777926"
+        bannerView.rootViewController = self
+         bannerView.load(GADRequest())
+         bannerView.delegate = self
+        
+        interstitial = GADInterstitial(adUnitID: "ca-app-pub-3032756932177746/8414740827")
+               let request = GADRequest()
+                  interstitial.load(request)
+                interstitial = createAndLoadInterstitial()
+               interstitial.delegate = self
+        
         
         var CustomImageFlow = FlowLayoutColllectionView()
               collectionView.collectionViewLayout = CustomImageFlow
@@ -152,6 +202,10 @@ class Indian: UICollectionViewController {
 
 
     override func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        if interstitial.isReady {
+          interstitial.present(fromRootViewController: self)
+        }
+        
         var url = indian[indexPath.row]["URL"]
         
         let Detialscene = self.storyboard?.instantiateViewController(identifier: "DetailScene") as! Detail_ViewController

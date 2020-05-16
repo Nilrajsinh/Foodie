@@ -7,23 +7,23 @@
 //
 
 import UIKit
+import GoogleMobileAds
 
 
-
-class Italian: UICollectionViewController {
+class Italian: UICollectionViewController,GADBannerViewDelegate, GADInterstitialDelegate {
     
     override func viewWillAppear(_ animated: Bool) {
               tabBarController?.tabBar.isHidden = false
           }
     
     var Italian = [
-     ["Title":"Caprese Salad with Pesto Sauce","Image":#imageLiteral(resourceName: "caprese-salad_625x350_51506417724.jpg"),"URL":"","Des":"Nothing like a fresh tomato salad in summers! A great antipasto bite to start your meal with. This combination of juicy tomatoes and mozzarella cheese salad topped with freshly made pesto sauce is a distinct yet simple one. It offers a twist to the classic caprese salad"],
+     ["Title":"Caprese Salad with Pesto Sauce","Image":#imageLiteral(resourceName: "caprese-salad_625x350_51506417724.jpg"),"URL":"https://www.youtube.com/watch?v=Ij2uJrUn20Q","Des":"Nothing like a fresh tomato salad in summers! A great antipasto bite to start your meal with. This combination of juicy tomatoes and mozzarella cheese salad topped with freshly made pesto sauce is a distinct yet simple one. It offers a twist to the classic caprese salad"],
                   
-                   ["Title":"Panzenella","Image":#imageLiteral(resourceName: "panzenella_600x300_71506417795.jpg"),"URL":"","Des":"Panzenella is a Tuscan bread salad, ideal for summer. It does not follow a particular recipe, but the two ingredients that do not change are tomatoes and bread. This salad is great with a chilled glass of Prosecco and lots of sunshine!"],
+                   ["Title":"Panzenella","Image":#imageLiteral(resourceName: "panzenella_600x300_71506417795.jpg"),"URL":"https://www.youtube.com/watch?v=J-Rn9DN3IjU","Des":"Panzenella is a Tuscan bread salad, ideal for summer. It does not follow a particular recipe, but the two ingredients that do not change are tomatoes and bread. This salad is great with a chilled glass of Prosecco and lots of sunshine!"],
                    
-                    ["Title":"Bruschetta","Image":#imageLiteral(resourceName: "bruschetta_625x350_71506417841.jpg"),"URL":"","Des":"An antipasto dish, bruschetta has grilled bread topped with veggies, rubbed garlic and tomato mix. A country bread sliced and topped with different toppings - the evergreen tomato-basil and an inventive mushroom-garlic. The classic Italian starter!"],
+                    ["Title":"Bruschetta","Image":#imageLiteral(resourceName: "bruschetta_625x350_71506417841.jpg"),"URL":"https://www.youtube.com/watch?v=5O4Yna5919c","Des":"An antipasto dish, bruschetta has grilled bread topped with veggies, rubbed garlic and tomato mix. A country bread sliced and topped with different toppings - the evergreen tomato-basil and an inventive mushroom-garlic. The classic Italian starter!"],
                     
-                     ["Title":"Margherita Pizza","Image":#imageLiteral(resourceName: "South_Indian_Medu_Vada_Sambar_with_Medu_Vada_Maker-8_400"),"URL":"","Des":"Fancy a pipping hot pizza, fresh out of the oven? Create one at home! Margherita Pizza is to many the true Italian flag. One of the most loved Italian dishes, it just takes a few simple ingredients and you get insanely delicious results! You just can't go wrong with that tomato, basil and fresh mozzarella combo."],
+                     ["Title":"Margherita Pizza","Image": #imageLiteral(resourceName: "163-the-real-history-about-pizza-margherita-1.jpg"),"URL":"","Des":"Fancy a pipping hot pizza, fresh out of the oven? Create one at home! Margherita Pizza is to many the true Italian flag. One of the most loved Italian dishes, it just takes a few simple ingredients and you get insanely delicious results! You just can't go wrong with that tomato, basil and fresh mozzarella combo."],
                      
                      
                       ["Title":"Lasagna","Image":#imageLiteral(resourceName: "lasagna_620x350_81508846322.jpg"),"URL":"https://www.youtube.com/watch?v=U0zk2H3mMoA","Des":"In this video, we're cooking Lasagne at home, without using an oven. This vegetable lasagne has an Indian twist, just the way we like it. Plus point of the recipe is, we will be making our very own eggless pasta dough, and then the lasagna sheets. This recipe will be made from scratch."],
@@ -53,9 +53,67 @@ class Italian: UICollectionViewController {
                                  ["Title":"Cotoletta alla Milanese","Image": #imageLiteral(resourceName: "cotoletta.jpg"),"URL":"https://www.youtube.com/watch?v=CqqoZDfUoPM","Des":"The Wiener schnitzel"]
         
                                  ]
+    
+    
+    //banner add
+    
+    
+    var bannerView: GADBannerView!
+    func addBannerViewToView(_ bannerView: GADBannerView) {
+     bannerView.translatesAutoresizingMaskIntoConstraints = false
+     view.addSubview(bannerView)
+     view.addConstraints(
+       [NSLayoutConstraint(item: bannerView,
+                           attribute: .bottom,
+                           relatedBy: .equal,
+                           toItem: bottomLayoutGuide,
+                           attribute: .top,
+                           multiplier: 1,
+                           constant: 0),
+        NSLayoutConstraint(item: bannerView,
+                           attribute: .centerX,
+                           relatedBy: .equal,
+                           toItem: view,
+                           attribute: .centerX,
+                           multiplier: 1,
+                           constant: 0)
+       ])
+    }
+    
+    //interial
+     var interstitial: GADInterstitial!
+    func createAndLoadInterstitial() -> GADInterstitial {
+      var interstitial = GADInterstitial(adUnitID: "ca-app-pub-3032756932177746/8414740827")
+      interstitial.delegate = self
+      interstitial.load(GADRequest())
+      return interstitial
+    }
+
+    func interstitialDidDismissScreen(_ ad: GADInterstitial) {
+      interstitial = createAndLoadInterstitial()
+    }
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        bannerView = GADBannerView(adSize: kGADAdSizeBanner)
+        addBannerViewToView(bannerView)
+        bannerView.adUnitID = "ca-app-pub-3032756932177746/3792969538"
+        bannerView.rootViewController = self
+         bannerView.load(GADRequest())
+         bannerView.delegate = self
+        
+        
+        
+        //intersial
+        
+        interstitial = GADInterstitial(adUnitID: "ca-app-pub-3032756932177746/8414740827")
+        let request = GADRequest()
+           interstitial.load(request)
+         interstitial = createAndLoadInterstitial()
+        interstitial.delegate = self
+        
         
         var CustomImageFlow = FlowLayoutColllectionView()
                      collectionView.collectionViewLayout = CustomImageFlow
@@ -114,6 +172,10 @@ class Italian: UICollectionViewController {
     }
     
     override func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        if interstitial.isReady {
+          interstitial.present(fromRootViewController: self)
+        }
+        
          var url = Italian[indexPath.row]["URL"]
          
          let Detialscene = self.storyboard?.instantiateViewController(identifier: "DetailScene") as! Detail_ViewController
